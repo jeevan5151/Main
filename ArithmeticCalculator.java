@@ -8,7 +8,11 @@ public class ArithmeticCalculator {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Welcome to the Arithmetic Calculator!");
-        System.out.println("Available operations: +, -, *, /");
+        System.out.println("Available operations:");
+        System.out.println("1.Addition");
+        System.out.println("2.Subraction");
+        System.out.println("3.Multiplication");
+        System.out.println("4.Division");
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
         
@@ -20,7 +24,7 @@ public class ArithmeticCalculator {
         
         double result = 0;
         boolean validOperation = true;
-        
+       
         switch (operator) {
             case '+':
                 result = num1 + num2;

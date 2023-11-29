@@ -10,6 +10,9 @@ public class DemoAccessModifiers {
 		
 		a1.method1A();
 		
+		int result = a1.method2A(3);
+		System.out.println("result = "+result);
+		
 	}
 
 }
